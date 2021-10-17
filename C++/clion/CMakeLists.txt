@@ -3,7 +3,7 @@ project(C__)
 
 set(CMAKE_CXX_STANDARD 14)
 
-include_directories(clion)
+include_directories(.)
 
 add_executable(C__
-        clion/main.cpp)
+        main.cpp)
