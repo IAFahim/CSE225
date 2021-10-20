@@ -2,7 +2,7 @@
 
 Using the **new** operator, allocate an integer array of user specified size (the user gives the size of the array as input). Assign values to the array elements by taking user inputs and then print the values. Finally, de-allocate the array using the **delete** operator.
 
-![Lab 1 Task 1.cpp](/C++/Lab/Lab 1/Lab 1 Task 1.png)
+![Lab 1 Task 1.cpp](https://imgur.com/pEj72Rq.png)
 
 **Task2:** 
 
