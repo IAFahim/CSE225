@@ -2,20 +2,39 @@
 
 using namespace std;
 
-std::string seriesSum(int n)
-{
-    double sum=0,d=-2;
-    for (int i = 1; i <= n; ++i) {
-        sum+=1/(d+=3);
-    }
-    char str[10];
-    sprintf(str,"%.2f",sum);
-    return str;
-}
+//int largest_five_digits(const std::string &digits) {
+//    int x=0;
+//    for (int i = 0; i < digits.size()-5; ++i) {
+//        x= stoi(digits)
+//    }
+//}
 
 int main() {
-    freopen(R"(C:\Users\Fahim\GolandProjects\CSE225\C++\clion\input.txt)", "r", stdin);
-    int a;
-    cin >> a;
-    cout<< seriesSum(a);
+//    freopen(R"(C:\Users\Fahim\GolandProjects\CSE225\C++\clion\input.txt)", "r", stdin);
+    string str = "You hate me";
+    int count = 0;
+    for (int i = 0; i < str.size(); ++i) {
+        if (str[i] == ' ') {
+            count++;
+        }
+    }
+    string arr[count + 1];
+    int at = count;
+
+    for (int i = 0; i < str.size(); ++i) {
+        if (str[i] != ' ') {
+            arr[at] += str[i];
+        } else {
+            at--;
+        }
+    }
+    string s;
+    for (int i = 0; i < count + 1; ++i) {
+        if(i==count){
+            s+=arr[i];
+        }else{
+            s+=arr[i]+" ";
+        }
+    }
+    cout<<s;
 }
