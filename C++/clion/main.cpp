@@ -1,19 +1,55 @@
 #include <bits/stdc++.h>
+#include "dynarr.h"
 
 using namespace std;
 
-int countSmileys(const std::vector<std::string> &arr) {
-    int count = 0;
-    for (int i = 0; i < arr.size(); ++i) {
-        if (((arr[i].size()==2 && (arr[i][0]==':'|| arr[i][0]==';'))|| (arr[i].size()==3 && (arr[i][1]=='-'|| arr[i][1]=='~'))) && (arr[i][arr[i].size()-1]==')' || arr[i][arr[i].size()-1]=='D') ) {
-//            cout<< arr[i]<<" ";
-            count++;
+void task_1() {
+    int n = 5;
+    dynarr a;
+    dynarr b(n);
+    for (int i = 0; i < n; ++i) {
+        int x;
+        cin >> x;
+        b.setValue(i, x);
+    }
+    for (int i = 0; i < n; ++i) {
+        cout << b.getValue(i) << " ";
+    }
+    a.~dynarr();
+}
+
+void task_2() {
+    int n = 5;
+    dynarr a;
+    a.allocate(n);
+    for (int i = 0; i < n; ++i) {
+        int x;
+        cin >> x;
+        a.setValue(i, x);
+    }
+    a.~dynarr();
+}
+
+void task_3() {
+    int width, height;
+    cin >> width >> height;
+    dynarr a(width, height);
+    for (int y = 0; y < height; ++y) {
+        for (int x = 0; x < width; ++x) {
+            int val;
+            cin >>val;
+            a.setValue(x,y,val);
         }
     }
-    return count;
+    for (int y = 0; y < height; ++y) {
+        for (int x = 0; x < width; ++x) {
+            cout<<a.getValue(x,y)<<" ";
+        }
+    }
+    a.~dynarr();
 }
 
 int main() {
-//    freopen(R"(C:\Users\Fahim\GolandProjects\CSE225\C++\clion\input.txt)", "r", stdin);
-    cout << countSmileys({";(", ";(", ":)", ":>", ":D", ":-(", ":>"});
+    freopen(R"(C:\Users\Fahim\GolandProjects\CSE225\C++\clion\input.txt)", "r", stdin);
+    task_3();
 }
