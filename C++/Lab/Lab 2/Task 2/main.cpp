@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 #include "dynarr.h"
 
-int main() {
+void task_2() {
     int n = 5;
     dynarr a;
     a.allocate(n);
@@ -11,4 +11,8 @@ int main() {
         a.setValue(i, x);
     }
     a.~dynarr();
+}
+
+int main() {
+    task_2();
 }

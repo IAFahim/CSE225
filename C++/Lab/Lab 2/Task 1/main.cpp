@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 #include "dynarr.h"
 
-int main() {
+void task_1() {
     int n = 5;
     dynarr a;
     dynarr b(n);
@@ -14,4 +14,8 @@ int main() {
         cout << b.getValue(i) << " ";
     }
     a.~dynarr();
+}
+
+int main() {
+    task_1();
 }
