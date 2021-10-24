@@ -1,10 +1,5 @@
-//
-// Created by Fahim on 24/10/2021.
-//
-
 #ifndef C___DYNARR_H
 #define C___DYNARR_H
-
 
 class dynarr {
 private:

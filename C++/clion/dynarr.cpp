@@ -61,7 +61,3 @@ dynarr::~dynarr() {
     //for task 3
     delete[] data_2d;
 }
-
-
-
-
