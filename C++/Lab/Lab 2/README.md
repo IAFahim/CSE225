@@ -1,20 +1,33 @@
 **Task1:** 
 
-Using the **new** operator, allocate an integer array of user specified size (the user gives the size of the array as input). Assign values to the array elements by taking user inputs and then print the values. Finally, de-allocate the array using the **delete** operator.
+In the driver file (main.cpp), perform the following sub-tasks.
+1. Create two objects of this class, one with no constructor argument and one with the argument 5.
+2. Take five input values from the user and store them in the array inside the second object using the set method.
+3. For the second object, print all the values you just stored.
+   Note that, you cannot assign anything in the first object since the array inside it has size 0. Neither can you change
+   the size of this array to some other size.
 
 ![Lab 2 Task 1.cpp](https://github.com/IAFahim/CSE225/blob/master/C%2B%2B/Lab/Lab%202/Task%201/Lab%202%20Task%201.png)
 
 **Task2:** 
 
-Using the **new** operator, allocate a two-dimensional character array.Again the number of rows and columns are going to be provided by the user as input. All the rows are the same size. Take character strings as input from the user and then print the strings. Finally, de-allocate the array using the **delete** operator.
+Modify the header and the source files. Add a member function **void allocate(int s)** which allows
+you to change the size of the array. Make sure that memory is not leaked.
 
 ![Lab 2 Task 2.cpp](https://github.com/IAFahim/CSE225/blob/master/C%2B%2B/Lab/Lab%202/Task%202/Lab%202%20Task%202.png)
 
 **Task3:**
 
-Task3:Using the **new** operator, allocate a two-dimensional integer array. The number of rows and columns are going to be provided by the user as input. However, in this task, all the rows are not the same size (the array is uneven). The user will specify how many elements the individual rows will have. Assign values to the array elements by taking user inputs and then print the values. Finally, de-allocate the array using the **delete** operator
+Modify  the  header  file  and  the  source  files  again,  so  that  it  works  for  two  dimensional  array  where  all  the
+rows  are  the  same  size.  The  user  will  specify  the  number  of  rows  and  columns  as  well  as  the  content  of  the  array,
+which you will take as input from user in the main function.
 
 ![Lab 2 Task 3.cpp](https://github.com/IAFahim/CSE225/blob/master/C%2B%2B/Lab/Lab%202/Task%203/Lab%202%20Task%203.png)
 
+## Task 1 2 3 Header file
+
 ![Lab 2 Task 1 2 3 header file](https://github.com/IAFahim/CSE225/blob/master/C%2B%2B/Lab/Lab%202/dynarr.h%20.png)
+
+## Task 1 2 3 Cpp file
+
 ![Lab 2 Task 1 2 3 header file](https://github.com/IAFahim/CSE225/blob/master/C%2B%2B/Lab/Lab%202/dynarr.cpp%20.png)
