@@ -16,4 +16,5 @@ Task3:Using the **new** operator, allocate a two-dimensional integer array. The 
 
 ![Lab 2 Task 3.cpp](https://github.com/IAFahim/CSE225/blob/master/C%2B%2B/Lab/Lab%202/Task%203/Lab%202%20Task%203.png)
 
-![Lab 2 Task 1 2 3 header file](https://github.com/IAFahim/CSE225/blob/master/C%2B%2B/Lab/Lab%202/Task%201/Lab%202%20Task%201.png)
+![Lab 2 Task 1 2 3 header file](https://github.com/IAFahim/CSE225/blob/master/C%2B%2B/Lab/Lab%202/dynarr.h%20.png)
+![Lab 2 Task 1 2 3 header file](https://github.com/IAFahim/CSE225/blob/master/C%2B%2B/Lab/Lab%202/dynarr.cpp%20.png)
