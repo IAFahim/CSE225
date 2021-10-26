@@ -45,11 +45,12 @@ void task_3() {
         for (int x = 0; x < width; ++x) {
             cout<<a.getValue(x,y)<<" ";
         }
+        cout<<endl;
     }
     a.~dynarr();
 }
 
 int main() {
-    freopen(R"(C:\Users\Fahim\GolandProjects\CSE225\C++\clion\input.txt)", "r", stdin);
+//    freopen(R"(C:\Users\Fahim\GolandProjects\CSE225\C++\clion\input.txt)", "r", stdin);
     task_3();
 }

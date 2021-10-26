@@ -1,6 +1,8 @@
 #include <bits/stdc++.h>
 #include "dynarr.h"
 
+using namespace std;
+
 void task_1() {
     int n = 5;
     dynarr a;

@@ -1,6 +1,8 @@
 #include <bits/stdc++.h>
 #include "dynarr.h"
 
+using namespace std;
+
 void task_3() {
     int width, height;
     cin >> width >> height;
