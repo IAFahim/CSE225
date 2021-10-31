@@ -13,7 +13,7 @@ Complex::Complex(double r, double i) {
     Imaginary = i;
 }
 
-Complex Complex::operator+(Complex a) const {
+Complex Complex::operator+(Complex a) const  {
     Complex t;
     t.Real = Real + a.Real;
     t.Imaginary = Imaginary + a.Imaginary;
@@ -33,5 +33,5 @@ Complex Complex::operator*(Complex a) const {
 }
 
 bool Complex::operator!=(Complex a) const {
-    return a.Real != Real || a.Real != Imaginary;
+    return a.Real != Real || a.Imaginary != Imaginary;
 }
