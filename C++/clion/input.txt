@@ -1,1 +1,1 @@
-//    freopen(R"(C:\Users\Fahim\GolandProjects\CSE225\C++\clion\input.txt)","r",stdin);
+1 5 6 7 8
