@@ -5,4 +5,4 @@ set(CMAKE_CXX_STANDARD 14)
 
 include_directories(.)
 
-add_executable(clion main.cpp dynarr.cpp dynarr.h)
+add_executable(clion main.cpp dynarr.cpp dynarr.h complex.cpp complex.h)

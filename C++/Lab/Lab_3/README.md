@@ -15,3 +15,19 @@ Task 1 Header.cpp
 
 ![Lab 3 Task 1](https://github.com/IAFahim/CSE225/blob/master/C%2B%2B/Lab/Lab_3/Task_1/dynarr.cpp.png)
 
+**Task2:**
+Recall the complex number class we discussed in our lectures. Modify the class and overload the *(multiplication) and the !=(not equal) operators for the class given below.
+
+![Lab 3 Task 2](https://github.com/IAFahim/CSE225/blob/master/C%2B%2B/Lab/Lab_3/Task_2/main.png)
+
+Task 2 Header.h
+
+`#include "complex.h"`
+
+![Lab 3 Task 2](https://github.com/IAFahim/CSE225/blob/master/C%2B%2B/Lab/Lab_3/Task_2/complex.h.png)
+
+Task 2 Header.cpp
+
+`#include "complex.cpp"`
+
+![Lab 3 Task 2](https://github.com/IAFahim/CSE225/blob/master/C%2B%2B/Lab/Lab_3/Task_2/complex.cpp.png)
