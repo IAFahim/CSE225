@@ -1,37 +1,19 @@
 #ifndef C___DYNARR_H
 #define C___DYNARR_H
 
+template<class T>
 class dynarr {
 private:
-    int *data;
-    int size;
-    int **data_2d;
+    T *data;
+    int size{};
 public:
-    dynarr();
-
-    explicit dynarr(int);
-
-    dynarr(int, int);
+    explicit dynarr(int size);
 
     ~dynarr();
 
-    //for task 2
-    void allocate(int);
+    void setValue(int, T);
 
-    void setValue(int, int);
-
-    int getValue(int);
-
-    //for task 3
-    void setValue(int, int, int);
-
-    //for task 3
-    int getValue(int, int, int);
-
-    void allocate(int, int);
-
-    int getValue(int, int);
+    T getValue(int);
 };
-
 
 #endif //C___DYNARR_H
