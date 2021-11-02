@@ -34,43 +34,6 @@ void IS_FULL(UnsortedType<T> *s) {
     }
 }
 
-void task_1() {
-    UnsortedType<int> s;
-
-    s.InsertItem(5);
-    s.InsertItem(7);
-    s.InsertItem(6);
-    s.InsertItem(9);
-
-    PRINT(&s);
-
-    cout << s.LengthIs() << endl;
-
-    s.InsertItem(1);
-
-    PRINT(&s);
-
-    int x;
-    LOOK(&s, x = 4);
-    LOOK(&s, x = 5);
-    LOOK(&s, x = 9);
-    LOOK(&s, x = 10);
-
-    IS_FULL(&s);
-
-    s.DeleteItem(x = 5);
-
-    IS_FULL(&s);
-
-    s.DeleteItem(x = 1);
-
-    PRINT(&s);
-
-    s.DeleteItem(x = 6);
-
-    PRINT(&s);
-}
-
 void task_2() {
     UnsortedType<studentInfo> s;
 
@@ -97,6 +60,5 @@ void task_2() {
 }
 
 int main() {
-    task_1();
     task_2();
 }
