@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 #include "unsortedtype.cpp"
-#include "studentInfo.h"
 
 using namespace std;
 
