@@ -23,5 +23,5 @@ bool studentInfo::operator!=(const studentInfo &x) const {
 
 ostream &operator<<(ostream &os, studentInfo &s) {
     return os << s.ID << " " << s.NAME << " " << s.CGPA;
-}
 
+}
