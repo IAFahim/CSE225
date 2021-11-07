@@ -9,8 +9,11 @@ private:
 public:
     dynarr();
     explicit dynarr(int);
+    void setData(T x, int index);
+    T getData(int index);
     ~dynarr();
 };
+
 
 
 #endif //C___DYNARR_H

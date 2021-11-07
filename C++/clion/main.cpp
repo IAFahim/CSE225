@@ -4,9 +4,14 @@
 using namespace std;
 
 int main(){
-    int n=5;
+    int n=11;
+    int arr[]={0,1,2,3,4,5,6,7,8,10,11};
     dynarr<int> d(n);
     for (int i = 0; i < n; ++i) {
-
+        d.setData(arr[i],i);
     }
+    for (int i = 0; i < n; ++i) {
+        cout<<d.getData(i)<<" ";
+    }
+
 }
