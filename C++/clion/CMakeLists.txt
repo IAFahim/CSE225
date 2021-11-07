@@ -5,4 +5,4 @@ set(CMAKE_CXX_STANDARD 14)
 
 include_directories(.)
 
-add_executable(clion main.cpp sortedtype.cpp sortedtype.h timeStamp.cpp timeStamp.h)
+add_executable(clion dynarr.cpp dynarr.h main.cpp)
