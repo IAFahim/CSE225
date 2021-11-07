@@ -10,8 +10,6 @@ int main(){
     for (int i = 0; i < n; ++i) {
         d.setData(arr[i],i);
     }
-    for (int i = 0; i < n; ++i) {
-        cout<<d.getData(i)<<" ";
-    }
-
+    d.print(' ');
+    cout<< d.findFirst(9);
 }
