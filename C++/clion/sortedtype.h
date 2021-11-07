@@ -1,11 +1,12 @@
-#ifndef CLION_UNSORTEDTYPE_H
-#define CLION_UNSORTEDTYPE_H
+#ifndef CLION_SORTEDTYPE_H
+#define CLION_SORTEDTYPE_H
+
 const int MAX_ITEMS = 5;
 
 template<class ItemType>
-class UnsortedType {
+class SortedType {
 public :
-    UnsortedType();
+    SortedType();
 
     void MakeEmpty();
 
@@ -29,4 +30,4 @@ private:
     int currentPos;
 };
 
-#endif //CLION_UNSORTEDTYPE_H
+#endif //CLION_SORTEDTYPE_H
