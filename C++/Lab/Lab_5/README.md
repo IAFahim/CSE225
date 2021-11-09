@@ -26,4 +26,4 @@ the header file or the source file.
 
 `timeStamp.cpp`
 
-![Lab 5 Task 1 header file](https://github.com/IAFahim/CSE225/blob/master/Lab/Lab_5/Task_1/timeStamp.cpp.png)
+![Lab 5 Task 1 header file](https://github.com/IAFahim/CSE225/blob/master/C%2B%2B/Lab/Lab_5/Task_1/timeStamp.cpp.png)
