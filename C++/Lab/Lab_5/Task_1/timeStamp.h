@@ -25,5 +25,4 @@ public:
 
 };
 
-
 #endif //CLION_TIMESTAMP_H

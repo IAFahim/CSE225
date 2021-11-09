@@ -16,6 +16,7 @@ public:
     int findFirst(T x);
     int findLast(T x);
     int findCount(T x);
+    int binarySearch(int x, int till);
     ~dynarr();
 };
 

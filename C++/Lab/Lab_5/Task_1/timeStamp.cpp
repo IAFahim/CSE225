@@ -34,7 +34,3 @@ bool timeStamp::operator<(const timeStamp &rhs) const {
 std::ostream &operator<<(std::ostream &os, const timeStamp &stamp) {
     return os << stamp.second << ":" << stamp.minute << ":" << stamp.hour;
 }
-
-
-
-

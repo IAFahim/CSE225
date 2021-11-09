@@ -11,5 +11,5 @@ int main(){
         d.setData(arr[i],i);
     }
     d.print(' ');
-    cout<< d.findFirst(9);
+    cout<< d.binarySearch(11,n);
 }

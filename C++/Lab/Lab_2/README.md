@@ -27,9 +27,9 @@ which you will take as input from user in the main function.
 ## Task 1 2 3 Header file 
 `#include "dynarr.h"`
 
-![Lab 2 Task 1 2 3 header file](https://github.com/IAFahim/CSE225/blob/master/C%2B%2B/Lab/Lab_2/dynarr.h.png)
+![Lab 2 Task 1 2 3 header file](https://github.com/IAFahim/CSE225/blob/master/C%2B%2B/Lab/Lab_2/Common/dynarr.h.png)
 
 ## Task 1 2 3 Cpp file
 `dynarr.cpp`
 
-![Lab 2 Task 1 2 3 header file](https://github.com/IAFahim/CSE225/blob/master/C%2B%2B/Lab/Lab_2/dynarr.cpp.png)
+![Lab 2 Task 1 2 3 header file](https://github.com/IAFahim/CSE225/blob/master/C%2B%2B/Lab/Lab_2/Common/dynarr.cpp.png)
