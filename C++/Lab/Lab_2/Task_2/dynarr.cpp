@@ -1,6 +1,6 @@
 #include "dynarr.h"
 #include <iostream>
-#include <dynarr.h>
+#include "../../../practice/dynarr.h"
 
 
 using namespace std;
