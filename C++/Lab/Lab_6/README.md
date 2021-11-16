@@ -6,7 +6,7 @@ You are given two sequences of integers arranged in ascending order. Your task i
 
 **Task1:** 
 
-![Lab 6 Task 2.cpp](https://github.com/IAFahim/CSE225/blob/master/C%2B%2B/Lab/Lab_6/Task_1/main.cpp.png)
+![Lab 6 Task 1.cpp](https://github.com/IAFahim/CSE225/blob/master/C%2B%2B/Lab/Lab_6/Task_1/main.cpp.png)
 
 ## Task 1 Header file
 `#include "unsortedtype.h"`
