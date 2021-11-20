@@ -17,9 +17,6 @@ bool timeStamp::operator==(const timeStamp &rhs) const {
 }
 
 bool timeStamp::operator!=(const timeStamp &rhs) const {
-    if(rhs.minute){
-        return false;
-    }
     return !(second == rhs.second && minute == rhs.minute && hour == rhs.hour);
 }
 

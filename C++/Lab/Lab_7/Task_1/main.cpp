@@ -17,6 +17,7 @@ void PRINT(SortedType<T> *linkedList, char endWith) {
     if (endWith != '\n') {
         cout << endl;
     }
+    linkedList->ResetList();
 }
 
 template<class T>
