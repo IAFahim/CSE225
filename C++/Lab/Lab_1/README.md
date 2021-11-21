@@ -1,4 +1,4 @@
-##Task1:
+## Task1:
 
 Using the **new** operator, allocate an integer array of user specified SIZE (the user gives the SIZE of the array as input). Assign values to the array elements by taking user inputs and then PRINT the values. Finally, de-allocate the array using the **delete** operator.
 
