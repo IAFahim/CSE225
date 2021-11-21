@@ -16,9 +16,9 @@ the header file or the source file.
 **Task 1 2 Header file**
 `#include "quetype.h"`
 
-![Lab 9 Task 1 2 header file](https://github.com/IAFahim/CSE225/blob/master/C%2B%2B/Lab/Lab_9/Common/stacktype.h.png)
+![Lab 9 Task 1 2 header file](https://github.com/IAFahim/CSE225/blob/master/C%2B%2B/Lab/Lab_9/Common/quetype.h.png)
 
 **Task 1 2 Cpp file**
 `quetype.cpp`
 
-![Lab 9 Task 1 2 header file](https://github.com/IAFahim/CSE225/blob/master/C%2B%2B/Lab/Lab_9/Common/stacktype.cpp.png)
+![Lab 9 Task 1 2 header file](https://github.com/IAFahim/CSE225/blob/master/C%2B%2B/Lab/Lab_9/Common/quetype.cpp.png)
