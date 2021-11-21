@@ -1,11 +1,11 @@
 #include <bits/stdc++.h>
-#include "stacktype.cpp"
+#include "quetype.cpp"
 
 using namespace std;
 
 template<class T>
-void IS_FULL(StackType<T> *stack) {
-    if (stack->IsFull()) {
+void IS_FULL(QueType<T> *queue) {
+    if (queue->IsFull()) {
         cout << "Stack is full" << endl;
     } else {
         cout << "Stack is not Empty" << endl;
@@ -13,99 +13,20 @@ void IS_FULL(StackType<T> *stack) {
 }
 
 template<class T>
-void IS_EMPTY(StackType<T> *stack) {
-    if (stack->IsEmpty()) {
+void IS_EMPTY(QueType<T> *queue) {
+    if (queue->IsEmpty()) {
         cout << "Stack is Empty" << endl;
     } else {
         cout << "Stack is not Empty" << endl;
     }
 }
 
-template<class T>
-void PRINT(StackType<T> *stack, char endWith) {
-    StackType<T> tempStack;
-    while (!stack->IsEmpty()) {
-        tempStack.Push(stack->Top());
-        stack->Pop();
-    }
-    while (!tempStack.IsEmpty()) {
-        T x = tempStack.Top();
-        cout << x << endWith;
-        stack->Push(x);
-        tempStack.Pop();
-    }
-    if (endWith != '\n') {
-        cout << endl;
-    }
-}
-
 void task_1() {
-    StackType<int> stack;
 
-    IS_EMPTY(&stack);
-
-    stack.Push(5);
-    stack.Push(7);
-    stack.Push(4);
-    stack.Push(2);
-
-    IS_EMPTY(&stack);
-
-    IS_FULL(&stack);
-
-    PRINT(&stack, ' ');
-
-    stack.Push(3);
-
-    PRINT(&stack, ' ');
-
-    IS_FULL(&stack);
-
-    stack.Pop();
-    stack.Pop();
-
-    cout << stack.Top() << endl;
-}
-
-void BALANCED(string str, char start, char end) {
-    stack<char> s;
-    int i = 0;
-    while (i < str.size()) {
-        if (str[i] == start) {
-            s.push(str[i]);
-        } else if (str[i] == end) {
-            if (!s.empty()) {
-                if (s.top() == start) {
-                    s.pop();
-                } else {
-                    cout << "Not balanced" << endl;
-                    return;
-                }
-            } else {
-                cout << "Not balanced" << endl;
-                return;
-            }
-        }
-        i++;
-    }
-    if (s.empty()) {
-        cout << "Balanced" << endl;
-    } else {
-        cout << "Not balanced" << endl;
-
-    }
 }
 
 void task_2() {
-    string str1 = "()";
-    string str2 = "(())()(()())()";
-    string str3 = "(())()((()";
-    string str4 = "(())))((()";
 
-    BALANCED(str1, '(', ')');
-    BALANCED(str2, '(', ')');
-    BALANCED(str3, '(', ')');
-    BALANCED(str4, '(', ')');
 }
 
 int main() {
