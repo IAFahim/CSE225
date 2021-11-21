@@ -13,7 +13,6 @@ Recall the class we used in the previous lab to allocate memory dynamically.Modi
 ![Lab 3 Task 1](https://github.com/IAFahim/CSE225/blob/master/C%2B%2B/Lab/Lab_3/Task_1/dynarr.h.png)
 
 **Task 1 Header.cpp**
-
 `#include "dynarr.cpp"`
 
 ![Lab 3 Task 1](https://github.com/IAFahim/CSE225/blob/master/C%2B%2B/Lab/Lab_3/Task_1/dynarr.cpp.png)
@@ -31,7 +30,6 @@ Recall the complex number class we discussed in our lectures. Modify the class a
 ![Lab 3 Task 2](https://github.com/IAFahim/CSE225/blob/master/C%2B%2B/Lab/Lab_3/Task_2/complex.h.png)
 
 **Task 2 Header.cpp**
-
 `#include "complex.cpp"`
 
 ![Lab 3 Task 2](https://github.com/IAFahim/CSE225/blob/master/C%2B%2B/Lab/Lab_3/Task_2/complex.cpp.png)

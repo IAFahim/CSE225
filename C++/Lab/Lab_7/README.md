@@ -10,6 +10,7 @@ the header file or the source file.
 ![Lab 7 Task 1.cpp](https://github.com/IAFahim/CSE225/blob/master/C%2B%2B/Lab/Lab_7/Task_1/main.cpp.png)
 
 **Task 1 Header files**
+
 `#include "sortedtype.h"`
 
 ![Lab 7 Task 1 header file](https://github.com/IAFahim/CSE225/blob/master/C%2B%2B/Lab/Lab_7/Task_1/sortedtype.h.png)
@@ -19,6 +20,7 @@ the header file or the source file.
 ![Lab 7 Task 1 header file](https://github.com/IAFahim/CSE225/blob/master/C%2B%2B/Lab/Lab_7/Task_1/sortedtype.h.png)
 
 **Task 1 Cpp files**
+
 `unsortedtype.cpp`
 
 ![Lab 7 Task 1 header file](https://github.com/IAFahim/CSE225/blob/master/C%2B%2B/Lab/Lab_7/Task_1/sortedtype.cpp.png)
