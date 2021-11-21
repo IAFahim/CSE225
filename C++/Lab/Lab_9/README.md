@@ -9,16 +9,16 @@ the header file or the source file.
 
 ![Lab 9 Task 1.cpp](https://github.com/IAFahim/CSE225/blob/master/C%2B%2B/Lab/Lab_9/Task_1/main.cpp.png)
 
+## Task2:
+
+![Lab 9 Task 1.cpp](https://github.com/IAFahim/CSE225/blob/master/C%2B%2B/Lab/Lab_9/Task_2/main.cpp.png)
+
 **Task 1 Header file**
 `#include "stacktype.h"`
 
-![Lab 9 Task 1 header file](https://github.com/IAFahim/CSE225/blob/master/C%2B%2B/Lab/Lab_9/Task_1/stacktype.h.png)
+![Lab 9 Task 1 header file](https://github.com/IAFahim/CSE225/blob/master/C%2B%2B/Lab/Lab_9/Common/stacktype.h.png)
 
 **Task 1 Cpp file**
 `stacktype.cpp`
 
-![Lab 9 Task 1 header file](https://github.com/IAFahim/CSE225/blob/master/C%2B%2B/Lab/Lab_9/Task_1/stacktype.cpp.png)
-
-## Task2:
-
-![Lab 9 Task 1.cpp](https://github.com/IAFahim/CSE225/blob/master/C%2B%2B/Lab/Lab_9/Task_2/main.cpp.png)
+![Lab 9 Task 1 header file](https://github.com/IAFahim/CSE225/blob/master/C%2B%2B/Lab/Lab_9/Common/stacktype.cpp.png)
