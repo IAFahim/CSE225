@@ -21,4 +21,4 @@ the header file or the source file.
 
 ## Task2:
 
-![Lab 8 Task 1.cpp](https://github.com/IAFahim/CSE225/blob/master/C%2B%2B/Lab/Lab_8/Task_2/main.cpp.png)
+![Lab 8 Task 2.cpp](https://github.com/IAFahim/CSE225/blob/master/C%2B%2B/Lab/Lab_8/Task_2/main.cpp.png)
