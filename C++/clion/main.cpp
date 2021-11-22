@@ -96,13 +96,6 @@ void task_1() {
     REMOVE(&queue);
 }
 
-void generatePrintBinary(int n) {
-    QueType<string> queue;
-    for (int i = 0; i < n; ++i) {
-
-    }
-}
-
 void task_2() {
     int n;
     cin >> n;
