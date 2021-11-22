@@ -18,7 +18,7 @@ the header file or the source file.
 
 ![Lab 8 Task 1 & 2 header file](https://github.com/IAFahim/CSE225/blob/master/C%2B%2B/Lab/Lab_8/Common/stacktype.h.png)
 
-**Task 1 2 Cpp file**
+**Task 1 & 2 Cpp file**
 `stacktype.cpp`
 
 ![Lab 8 Task 1 & 2 header file](https://github.com/IAFahim/CSE225/blob/master/C%2B%2B/Lab/Lab_8/Common/stacktype.cpp.png)
