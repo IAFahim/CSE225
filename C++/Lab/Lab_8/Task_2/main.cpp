@@ -1,17 +1,18 @@
 #include <bits/stdc++.h>
+#include "stacktype.cpp"
 
 using namespace std;
 
 void BALANCED(string str, char start, char end) {
-    stack<char> s;
+    StackType<char> s;
     int i = 0;
     while (i < str.size()) {
         if (str[i] == start) {
-            s.push(str[i]);
+            s.Push(str[i]);
         } else if (str[i] == end) {
-            if (!s.empty()) {
-                if (s.top() == start) {
-                    s.pop();
+            if (!s.IsEmpty()) {
+                if (s.Top() == start) {
+                    s.Pop();
                 } else {
                     cout << "Not balanced" << endl;
                     return;
@@ -23,7 +24,7 @@ void BALANCED(string str, char start, char end) {
         }
         i++;
     }
-    if (s.empty()) {
+    if (s.IsEmpty()) {
         cout << "Balanced" << endl;
     } else {
         cout << "Not balanced" << endl;
