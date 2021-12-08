@@ -8,7 +8,7 @@ void IS_FULL(QueType<T> *queue) {
     if (queue->IsFull()) {
         cout << "Queue is full" << endl;
     } else {
-        cout << "Queue is not Empty" << endl;
+        cout << "Queue is not full" << endl;
     }
 }
 
