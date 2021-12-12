@@ -29,7 +29,7 @@ void Question_3() {
     Student olivia("Ovlvia", 88, 85);
     Student harris("Harris", 45, 90);
     Student jacob("Jacob", 75, 76);
-    Student isia("isia", 77, 87);
+    Student isla("Isla", 77, 87);
     cout << olivia << endl;
     cout << harris << endl;
     cout << jacob << endl;
