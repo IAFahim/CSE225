@@ -20,7 +20,17 @@ I forgot to screenshot
 ## Task4:
 
 ![Task 4](https://github.com/IAFahim/CSE225/blob/master/C%2B%2B/Class/Exam/Mid_Lab/Task_4/main.cpp.png)
-    
+
+**Task 2 3 Header file**
+`#include "quetype.h"`
+
+![Lab  Task 1 header file](https://github.com/IAFahim/CSE225/blob/master/C%2B%2B/Class/Exam/Mid_Lab/Common/quetype.h.png)
+
+**Task 2 3 Cpp file**
+`quetype.cpp`
+
+![Lab  Task 1 header file](https://github.com/IAFahim/CSE225/blob/master/C%2B%2B/Class/Exam/Mid_Lab/Common/quetype.cpp.png)
+
 ## Sorry:
 
 I could help Other. I get Exam anxiety. 
