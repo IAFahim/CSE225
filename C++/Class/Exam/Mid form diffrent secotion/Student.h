@@ -1,6 +1,3 @@
-//
-// Created by Fahim on 07/12/2021.
-//
 #include <bits/stdc++.h>
 #include <ostream>
 
@@ -38,9 +35,7 @@ public:
 
     bool operator!=(const Student &rhs) const;
 
-    friend std::ostream &operator<<(std::ostream &os, const Student &student);
-
-    virtual ~Student();
+        virtual ~Student();
 };
 
 class Students{
