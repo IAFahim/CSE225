@@ -15,9 +15,11 @@ Now generate the **Driver file (main.cpp)** where you perform the following task
 **Task 1 2 Header file**
 
 `#include "heaptype.h"`
+
 ![Lab 14 Task 1 2 header file](https://github.com/IAFahim/CSE225/blob/master/C%2B%2B/Lab/Lab_14/Common/heaptype.h.png)
 
 `#include "pqtype.h"`
+
 ![Lab 14 Task 1 2 header file](https://github.com/IAFahim/CSE225/blob/master/C%2B%2B/Lab/Lab_14/Common/pqtype.h.png)
 
 **Task 1 2 Cpp file**
