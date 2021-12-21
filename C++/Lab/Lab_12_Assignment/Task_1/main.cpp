@@ -49,5 +49,5 @@ int main() {
 
     cout << DecToBin(120) << endl;
 
-    cout << series(3) << endl;
+    cout << series(5) << endl;
 }
