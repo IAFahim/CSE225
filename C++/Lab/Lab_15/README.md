@@ -10,7 +10,7 @@ Now generate the **Driver file (main.cpp)** where you perform the following task
 
 ## Task2:
 
-###Unfinished
+### Unfinished
 
 **Task 1 2 Header file**
 `#include "graphtype.h"`
