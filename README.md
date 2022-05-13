@@ -15,5 +15,3 @@ __CSE225.8 Fall 2021: [Data Structure & Algorithm](https://www.facebook.com/grou
 
 __C++: [C++](https://cp-algorithms.com/),__
 __Go: [golang](https://golang.org/)__
-
-F
